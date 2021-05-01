@@ -1,0 +1,242 @@
+.navbar {
+  background-color: #393e46;
+}
+.nav-link:hover {
+  color: #583d72;
+}
+
+.nav-item {
+  font-size: 85%;
+  font-family: "Spartan", sans-serif;
+}
+
+.nav-item > .btn-default {
+  background-color: #c70039;
+  border-radius: 5%;
+  font-size: 85%;
+  font-family: "Spartan", sans-serif;
+}
+
+.fas {
+  padding-left: 3%;
+  color: #a89da0;
+}
+
+.fas:hover {
+  color: #dedae2;
+}
+.bank-name {
+  font-family: "Almendra", serif;
+  font-size: 3vh;
+  color: #a89da0;
+  padding-top: 1%;
+}
+
+.bank-name:hover {
+  color: #dedae2;
+}
+
+.row {
+  height: 100vh;
+  background-image: url("../images/money.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.row > .box {
+  height: 40vh;
+  width: 50vw;
+
+  background-color: #eee9f0e5;
+  /* padding-top: 5%; */
+  margin-bottom: 40%;
+  margin-top: -15%;
+  /* direction: rtl; */
+
+  /* margin-right: 50%; */
+  padding-right: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.row > .box > .jumbotron {
+  /* height: 50vh; */
+
+  margin-bottom: 40%;
+}
+
+.row > .box > .jumbotron > .jumbotron-heading {
+  font-family: "Spartan", sans-serif;
+  font-size: 2rem;
+  padding-bottom: 10%;
+}
+.jumbotron-heading h1 {
+  color: #ce1348;
+}
+
+.row > .box > .jumbotron > .jumbotron-paragragh {
+  color: rgb(98, 96, 96);
+  font-family: "Spartan", sans-serif;
+  font-size: 0.95rem;
+  padding-bottom: 6%;
+}
+
+.jumbotron-paragragh :hover {
+  color: rgb(17, 17, 17);
+  padding-bottom: 6%;
+}
+
+.btn-default {
+  width: 5vw;
+  height: 5vh;
+  padding-top: 3%;
+  padding-left: 3%;
+  color: #ffff;
+}
+.btn-default:hover {
+  color: #000;
+}
+
+/* Login form */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #b92b27, #1565c0);
+}
+
+.card {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.box {
+  width: 500px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #191919;
+  text-align: center;
+  transition: 0.25s;
+  margin-top: 100px;
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 10px 10px;
+  width: 250px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+  width: 300px;
+  border-color: #2ecc71;
+}
+
+.box input[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.box input[type="submit"]:hover {
+  background: #2ecc71;
+}
+
+.forgot {
+  text-decoration: underline;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+  background-color: #bd3518;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+  color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44bcdd;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  transform: rotate(360deg);
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #fff;
+  transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+/* Register form */
