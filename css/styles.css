@@ -10,15 +10,15 @@ body {
 }
 
 .nav-item {
-  font-size: 85%;
-  font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .nav-item > .btn-default {
   background-color: #c70039;
   border-radius: 5%;
-  font-size: 85%;
-  font-family: "Spartan", sans-serif;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 
 .fas {
@@ -40,7 +40,7 @@ body {
   color: #dedae2;
 }
 
-.row {
+.main-body {
   height: 100vh;
   background-image: url("../images/money.jpg");
   background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body {
 
 .row > .box > .jumbotron > .jumbotron-paragragh {
   color: rgb(98, 96, 96);
-  font-family: "Spartan", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.95rem;
   padding-bottom: 6%;
 }
@@ -115,7 +115,8 @@ body {
 
 .cards {
   margin-left: 20%;
-  margin-top: 5%;
+  margin-top: 8%;
+  margin-bottom: 8%;
   position: relative;
   z-index: 1;
   justify-content: space-between;
