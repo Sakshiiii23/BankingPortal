@@ -1,0 +1,21 @@
+.boxsize {
+  width: 45%;
+  margin: 8% 20% 0 30%;
+  padding: 3% 3% 5% 3%;
+  border-radius: 3%;
+  background-color: #383737;
+}
+
+.head-form {
+  margin-bottom: 3%;
+  padding-left: 35%;
+  text-decoration: solid;
+  color: rgb(229, 246, 246);
+  text-shadow: antiquewhite;
+  font-size: 1.75rem;
+}
+
+label {
+  color: rgb(229, 246, 246);
+  font-size: 1rem;
+}

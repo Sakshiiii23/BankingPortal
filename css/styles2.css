@@ -138,3 +138,41 @@ a.socialIcon:hover,
   transition: all 0.8s;
   transition: all 0.8s;
 }
+
+.navbar {
+  background-color: #393e46;
+}
+.nav-link:hover {
+  color: #583d72;
+}
+
+.nav-item {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-item > .btn-default {
+  background-color: #c70039;
+  border-radius: 5%;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.fas {
+  padding-left: 3%;
+  color: #a89da0;
+}
+
+.fas:hover {
+  color: #dedae2;
+}
+.bank-name {
+  font-family: "Almendra", serif;
+  font-size: 3vh;
+  color: #a89da0;
+  padding-top: 1%;
+}
+
+.bank-name:hover {
+  color: #dedae2;
+}

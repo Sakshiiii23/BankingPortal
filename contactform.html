@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/contactform.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <!-- Font-styles -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spartan&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="index.html">
+          <i class="fas fa-gem fa-2x"></i>
+        </a>
+        <p class="bank-name">Golden Horizon</p>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><b>HOME</b></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <b>LOANS</b>
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdown"
+                style="background-color: #b8b5ff"
+              >
+                <a class="dropdown-item nav-link" href="./homeloan.html"
+                  >Home Loans</a
+                >
+                <a class="dropdown-item nav-link" href="./personalloan.html"
+                  >Personal Loans</a
+                >
+                <a class="dropdown-item nav-link" href="./educationloan.html"
+                  >Education Loans</a
+                >
+                <a class="dropdown-item nav-link" href="./goldloan.html"
+                  >Gold Loans</a
+                >
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./investment.html"><b>INVESTMENT</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutUs.html"><b>ABOUT US</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"><b>CONTACT US</b></a>
+            </li>
+            <li class="nav-item">
+              <button
+                type="button"
+                class="btn-default navbar-btn-dark"
+                onclick="location.href ='./login.html';"
+              >
+                <b>LOGIN</b>
+              </button>
+              <!-- <a class="nav-link" href="./register.html"><b>LOGIN</b></a> -->
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <form class="boxsize">
+      <div class="form-group">
+        <h3 class="head-form">Apply for Loan</h3>
+        <div class="form-row">
+          <div class="col">
+            <label for="exampleFormControlInput1">First Name</label>
+            <input type="text" class="form-control" placeholder="First name" />
+          </div>
+          <div class="col">
+            <label for="exampleFormControlInput1">Last Name</label>
+            <input type="text" class="form-control" placeholder="Last name" />
+          </div>
+        </div>
+        <label for="exampleFormControlInput1">Email address</label>
+        <input
+          type="email"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="name@example.com"
+        />
+        <label for="exampleFormControlInput1">Phone Number</label>
+        <input
+          type="tel"
+          class="form-control"
+          id="exampleFormControlInput1"
+          placeholder="Phone Number"
+        />
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect1">Type of Loan</label>
+        <select class="form-control" id="exampleFormControlSelect1">
+          <option>Home Loan</option>
+          <option>Personal Loan</option>
+          <option>Gold Loan</option>
+          <option>Education Loan</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Write a message</label>
+        <textarea
+          class="form-control"
+          id="exampleFormControlTextarea1"
+          rows="3"
+        ></textarea>
+      </div>
+    </form>
+  </body>
+</html>
