@@ -44,14 +44,34 @@ app.post("/sign_up", (req, res) => {
   });
 });
 
+app.post("/Login", (req, res) => {
+  user.exists({ email: req.body.email }, (err, result) => {
+    if (err) {
+      console.log(err);
+      return;
+    } else {
+      user.findOne({ email: req.body.email }, (err, resultFind) => {
+        if (err) {
+          console.log(err);
+        } else {
+          res.send(req.body.password === resultFind.password);
+        }
+      });
+    }
+  });
+});
+
 app
-  .post("/index", (req, res) => {
+  .post("/", (req, res) => {
     var options = {
       lang: "en",
       category: "entertainment",
       numOfResults: 25,
       click: true,
     };
+    res.set({
+      "Allow-access-Allow-Origin": "*",
+    });
     inshorts.get(options, function (result) {
       res.send(result);
     });
