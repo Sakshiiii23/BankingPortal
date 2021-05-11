@@ -62,7 +62,7 @@ app.post("/Login", (req, res) => {
 });
 
 app
-  .post("/", (req, res) => {
+  .get("/", (req, res) => {
     var options = {
       lang: "en",
       category: "entertainment",
