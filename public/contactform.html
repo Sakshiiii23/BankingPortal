@@ -119,14 +119,15 @@
         </div>
       </nav>
     </div>
-    <form class="boxsize">
-      <div class="form-group">
+    <form class="boxsize"  action="/applyloan" method="POST">
+      <div class="form-group" >
         <h3 class="head-form">Apply for Loan</h3>
         <div class="form-row">
           <div class="col">
             <label for="exampleFormControlInput1">First Name</label>
             <input
               type="text"
+              name="fname"
               class="form-control"
               placeholder="First name"
               required="required"
@@ -136,6 +137,7 @@
             <label for="exampleFormControlInput1">Last Name</label>
             <input
               type="text"
+              name="lname"
               class="form-control"
               placeholder="Last name"
               required="required"
@@ -145,7 +147,9 @@
         <label for="exampleFormControlInput1">Email address</label>
         <input
           type="email"
+          name="email"
           class="form-control"
+          name="fna"
           id="exampleFormControlInput1"
           placeholder="name@example.com"
           required="required"
@@ -153,6 +157,7 @@
         <label for="exampleFormControlInput1">Phone Number</label>
         <input
           type="tel"
+          name="pno"
           class="form-control"
           id="exampleFormControlInput1"
           placeholder="Phone Number"
@@ -163,14 +168,14 @@
         <label for="exampleFormControlSelect1" required="required"
           >Type of Loan</label
         >
-        <select class="form-control" id="exampleFormControlSelect1">
+        <select class="form-control" id="exampleFormControlSelect1" name="loantype">
           <option>Home Loan</option>
           <option>Personal Loan</option>
           <option>Gold Loan</option>
           <option>Education Loan</option>
         </select>
       </div>
-      <div class="form-group">
+      <div class="form-group" name="textmsg"> 
         <label for="exampleFormControlTextarea1">Write a message</label>
         <textarea
           class="form-control"

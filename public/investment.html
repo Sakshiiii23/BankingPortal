@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Auto Calculation</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <p><br /></p>
+      <form name="cart">
+        <table name="cart" class="table table-bordered table-striped">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Organization</th>
+              <th>Per Share Price</th>
+              <th>No. of shares you want to purchase</th>
+              <th>Your Purchase</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr name="line_items">
+              <td>
+                <button name="remove" class="btn btn-danger btn-sm">
+                  Remove
+                </button>
+              </td>
+              <td>TATA CONSULTANCY</td>
+              <td>
+                <input type="text" name="price" value="3077.00"
+                class="form-control form-control-sm"/ disabled="">
+              </td>
+              <td>
+                <select class="form-control form-control-sm" name="qty">
+                  <option value="0">--Please Select--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="item_total"
+                  jAutoCalc="{qty} * {price}"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr name="line_items">
+              <td>
+                <button name="remove" class="btn btn-danger btn-sm">
+                  Remove
+                </button>
+              </td>
+              <td>HCL Technologies</td>
+              <td>
+                <input type="text" name="price" value="897.65"
+                class="form-control form-control-sm"/ disabled="">
+              </td>
+              <td>
+                <select class="form-control form-control-sm" name="qty">
+                  <option value="0">--Please Select--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="item_total"
+                  jAutoCalc="{qty} * {price}"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr name="line_items">
+              <td>
+                <button name="remove" class="btn btn-danger btn-sm">
+                  Remove
+                </button>
+              </td>
+              <td>HDFC bank</td>
+              <td>
+                <input type="text" name="price" value="1401.00"
+                class="form-control form-control-sm"/ disabled="">
+              </td>
+              <td>
+                <select class="form-control form-control-sm" name="qty">
+                  <option value="0">--Please Select--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="item_total"
+                  jAutoCalc="{qty} * {price}"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr name="line_items">
+              <td>
+                <button name="remove" class="btn btn-danger btn-sm">
+                  Remove
+                </button>
+              </td>
+              <td>INFOSYS</td>
+              <td>
+                <input type="text" name="price" value="1319.15"
+                class="form-control form-control-sm"/ disabled="">
+              </td>
+              <td>
+                <select class="form-control form-control-sm" name="qty">
+                  <option value="0">--Please Select--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="item_total"
+                  jAutoCalc="{qty} * {price}"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr name="line_items">
+              <td>
+                <button name="remove" class="btn btn-danger btn-sm">
+                  Remove
+                </button>
+              </td>
+              <td>HINDUSTAN UNILEVER</td>
+              <td>
+                <input type="text" name="price" value="2347.20"
+                class="form-control form-control-sm"/ disabled="">
+              </td>
+              <td>
+                <select class="form-control form-control-sm" name="qty">
+                  <option value="0">--Please Select--</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                </select>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="item_total"
+                  jAutoCalc="{qty} * {price}"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">&nbsp;</td>
+              <td>Subtotal</td>
+              <td>&nbsp;</td>
+              <td>
+                <input
+                  type="text"
+                  name="sub_total"
+                  jAutoCalc="SUM({item_total})"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">&nbsp;</td>
+              <td>Tax</td>
+              <td>
+                <select name="tax" class="form-control">
+                  <option value=".18">GST (18%)</option>
+                  <option value=".00">Tax Free</option>
+                </select>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  name="tax_total"
+                  jAutoCalc="{sub_total} * {tax}"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">&nbsp;</td>
+              <td>Total</td>
+              <td>&nbsp;</td>
+              <td>
+                <input
+                  type="text"
+                  name="grand_total"
+                  jAutoCalc="{sub_total} + {tax_total}"
+                  class="form-control form-control-sm"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="4">
+                <button name="add" class="btn btn-primary">Add Row</button>
+              </td>
+              <td>
+                <button class="btn btn-primary">Buy Now</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jautocalc.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
