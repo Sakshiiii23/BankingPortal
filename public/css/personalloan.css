@@ -3,17 +3,17 @@
   }
   
   .box {
-    height: 40%;
+    height: 70%;
   }
   
   .box > .homeloan {
-    height: 40%;
+    height: 70%;
   }
   
   .homeloanimage1 {
     margin: 3% 5% 0 10%;
     width: 80%;
-    height: 70vh;
+    height: 80vh;
     
   }
   
