@@ -1,0 +1,113 @@
+.homeloan {
+    background-color: black;
+  }
+  
+  .box {
+    height: 40%;
+  }
+  
+  .box > .homeloan {
+    height: 40%;
+  }
+  
+  .homeloanimage1 {
+    margin: 3% 5% 0 10%;
+    width: 80%;
+    height: 70vh;
+    
+  }
+  
+  .home-heading {
+    padding: 3% 0 1% 42%;
+    font-family: "Poppins", sans-serif;
+    color: #e84545;
+    font-weight: 400;
+    display: block ruby;
+  }
+  
+  .home-heading:hover {
+    color: #e26b6b;
+    transition: 0.2s;
+  }
+  
+  .home-paragraph {
+    padding: 0 0 0 32%;
+    font-family: "Poppins", sans-serif;
+    color: #5a5656;
+    margin: 0 auto;
+  }
+  
+  .home-paragraph:hover {
+    color: #7a7878;
+    transition: 0.2s;
+  }
+  
+  .home-paragraph1 {
+    padding: 0 20% 0 20%;
+    font-family: "Poppins", sans-serif;
+    color: #5a5656;
+    line-height: 31px;
+    margin: 20px auto;
+  }
+  .home-paragraph1:hover {
+    color: #7a7878;
+    transition: 0.2s;
+  }
+  
+  #features {
+    height: 300px;
+    padding: 8% 8% 5% 10%;
+    position: relative;
+    z-index: 1;
+    background-color: rgb(209, 178, 188);
+  }
+  
+  .feature-box {
+    text-align: center;
+    padding-top: 5%;
+  }
+  
+  .feature-box > .icon {
+    color: #e84545;
+    margin-bottom: 1 rem;
+  }
+  
+  .feature-box > .icon:hover {
+    color: #e26b6b;
+  }
+  
+  .head-fontimg {
+    font-family: "Poppins", sans-serif;
+    font-size: 90%;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    font-weight: 700;
+  }
+  
+  .para-fontimg {
+    font-family: "Poppins", sans-serif;
+    font-size: 80%;
+    padding: 0 30% 0 30%;
+  }
+  .apply-loan {
+    display: block;
+    margin: 1% auto;
+    width: 13%;
+    height: 15%;
+    font-family: "Poppins", sans-serif;
+    background-color: #e84545;
+    color: #ffffff;
+    border-style: solid 1px white;
+    padding: 6px 18px;
+    text-decoration: none;
+    font-weight: bolder;
+    
+  }
+  
+  .apply-loan:hover {
+    background-color: #e26b6b;
+    color: #f1e7e7;
+    border-style: solid 1px white;
+    /* text-decoration-line: unset; */
+    
+  }
